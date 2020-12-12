@@ -8,5 +8,5 @@ See the grass on Github on the terminal
 # License
 MIT
 
-#　Author
+# Author
 Kota Kato
