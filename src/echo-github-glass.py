@@ -12,7 +12,8 @@ color = [
     "\033[30m\033[48;2;26;90;41m⬜︎\033[0m"
 ]
 height = 7
-width = len(glass)/7 if len(glass) % 7 == 0 else len(glass)//7+1
+width = int(len(glass)/7) if len(glass) % 7 == 0 else int(len(glass)//7+1)
+print(width)
 for i in range(height):
     for j in range(width):
         if len(glass) > i+j*7:
