@@ -13,7 +13,6 @@ color = [
 ]
 height = 7
 width = int(len(grass)/7) if len(grass) % 7 == 0 else int(len(grass)//7+1)
-print(width)
 for i in range(height):
     for j in range(width):
         if len(grass) > i+j*7:
